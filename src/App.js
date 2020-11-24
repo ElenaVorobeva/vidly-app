@@ -1,11 +1,12 @@
-import './App.css';
-import Movies from './movies';
+import "./App.css";
+import Movies from "./components/movies";
 
 function App() {
-
-  return (<main role='main' className='container'>
-    <Movies/>
-  </main>);
+  return (
+    <main role="main" className="container">
+      <Movies />
+    </main>
+  );
 }
 
 export default App;
